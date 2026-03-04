@@ -1,62 +1,40 @@
 ✅ Moodverse – AI-Powered Mood-Based Recommendations 🎭🤖
-📌 Overview
+# 🌙 Moodverse AI
 
-Moodverse is a full-stack web application that provides personalized movie, book, and music recommendations based on the user’s mood.
+Moodverse is a full-stack web application that recommends movies, books, and music based on your mood.
 
-Users can select or type their mood, and the app fetches curated content from multiple external APIs to generate meaningful entertainment suggestions.
+Built with React, Node.js, and external APIs.
 
-This project demonstrates modern full-stack development using React, Node.js, Express, and third-party APIs.
+---
 
+## ✨ Features
 
-✨ Features
+- 🎭 Mood-based recommendations
+- 🎬 Movies from TMDB
+- 📚 Books from Google Books
+- 🎵 Music from Deezer
+- ▶️ Music previews
+- 📱 Mobile-friendly UI
+- ⚡ Fast API backend
 
-🎭 Mood-based recommendation system
+---
 
-🎬 Movie suggestions (TMDB API)
+## 🛠️ Tech Stack
 
-📚 Book recommendations (Google Books API)
+### Frontend
+- React (Vite)
+- CSS3
+- React Icons
 
-🎵 Music discovery with preview playback (Deezer API)
+### Backend
+- Node.js
+- Express
+- Axios
+- Dotenv
 
-▶️ Audio preview player
+---
 
-💡 Active mood indicator
-
-🎨 Responsive and modern UI
-
-🔐 Secure API key management with environment variables
-
-
-🛠️ Tech Stack
-
-Frontend
-
-React (Vite)
-
-CSS3
-
-React Icons
-
-Backend
-
-Node.js
-
-Express.js
-
-Axios / Fetch
-
-Environment Variables (dotenv)
-
-APIs
-
-TMDB (Movies)
-
-Google Books
-
-Deezer (Music)
-
-
-📂 Project Structure
+## 📂 Project Structure
 
 moodverse/
 │
@@ -78,7 +56,8 @@ moodverse/
 └── .gitignore
 
 
-⚙️ Installation & Setup
+## ⚙️ Environment Setup
+
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/moodverse.git
 cd moodverse
@@ -132,7 +111,7 @@ Frontend runs on:
 http://localhost:5173
 
 
-🚀 Usage
+## 🚀 Usage
 
 Select a mood using the buttons
 
@@ -147,7 +126,7 @@ Play music previews
 Open content in external platforms
 
 
-📸 Screenshots
+## 📸 Screenshots
 
 (Add screenshots here after deployment)
 
@@ -157,7 +136,7 @@ Example:
 /screenshots/results.png
 
 
-🌐 Deployment
+## 🌐 Deployment
 
 The application can be deployed using:
 
@@ -168,7 +147,7 @@ Backend: Render / Railway / Fly.io
 Remember to configure environment variables on the hosting platform.
 
 
-🧠 What I Learned
+## 🧠 What I Learned
 
 Integrating multiple external APIs
 
@@ -183,7 +162,7 @@ UX/UI improvements
 Audio playback handling in React
 
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 User accounts & profiles
 
@@ -198,7 +177,7 @@ Recommendation history
 Mobile app version
 
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Yanay Sánchez García
 
@@ -209,12 +188,12 @@ Portfolio Project
 GitHub: https://github.com/Y8724
 
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
 
-❤️ Acknowledgments
+## ❤️ Acknowledgments
 
 TMDB API
 
