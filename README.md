@@ -55,150 +55,136 @@ moodverse/
 ├── README.md
 └── .gitignore
 
+---
 
 ## ⚙️ Environment Setup
 
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/moodverse.git
-cd moodverse
+# Clone the Repository
+- git clone https://github.com/your-username/moodverse.git
+- cd moodverse
 
 
-2️⃣ Backend Setup
-cd backend
-npm install
+# Backend Setup
+- cd backend
+- npm install
 
-Create .env file:
-cp .env.example .env
+- Create .env file:
+- cp .env.example .env
 
-Fill in your API keys:
-PORT=5050
-TMDB_API_KEY=your_key
-GOOGLE_BOOKS_KEY=your_key
-DEEZER_KEY=your_key
+# Fill in your API keys:
+- PORT=5050
+- TMDB_API_KEY=your_key
+- GOOGLE_BOOKS_KEY=your_key
+- DEEZER_KEY=your_key
 
-Start backend:
-npm start
-
-
-Backend runs on:
-http://localhost:5050
+# Start backend:
+- npm start
 
 
+# Backend runs on:
+- http://localhost:5050
 
-3️⃣ Frontend Setup
+---
 
-cd frontend
-npm install
+# Frontend Setup
 
-
-Create .env file:
-
-cp .env.example .env
-
-
-Add backend URL:
-
-VITE_API_URL=http://localhost:5050
+- cd frontend
+- npm install
 
 
-Start frontend:
+- Create .env file:
 
-npm run dev
+- cp .env.example .env
+
+---
+
+# Add backend URL:
+
+- VITE_API_URL=http://localhost:5050
 
 
-Frontend runs on:
+# Start frontend:
 
-http://localhost:5173
+- npm run dev
 
+
+# Frontend runs on:
+
+- http://localhost:5173
+
+---
 
 ## 🚀 Usage
 
-Select a mood using the buttons
+- Select a mood using the buttons
 
-Or type your mood manually
+- Or type your mood manually
 
-Click Get Recommendations
+- Click Get Recommendations
 
-Browse movies, books, and music
+- Browse movies, books, and music
 
-Play music previews
+- Play music previews
 
-Open content in external platforms
+- Open content in external platforms
 
-
-## 📸 Screenshots
-
-(Add screenshots here after deployment)
-
-Example:
-
-/screenshots/home.png
-/screenshots/results.png
-
-
-## 🌐 Deployment
-
-The application can be deployed using:
-
-Frontend: Netlify / Vercel
-
-Backend: Render / Railway / Fly.io
-
-Remember to configure environment variables on the hosting platform.
-
+---
 
 ## 🧠 What I Learned
 
-Integrating multiple external APIs
+- Integrating multiple external APIs
 
-Managing async data fetching
+- Managing async data fetching
 
-Secure API key handling
+- Secure API key handling
 
-Full-stack project architecture
+- Full-stack project architecture
 
-UX/UI improvements
+- UX/UI improvements
 
-Audio playback handling in React
+- Audio playback handling in React
 
+---
 
 ## 🔮 Future Improvements
 
-User accounts & profiles
+- User accounts & profiles
 
-Save favorite recommendations
+- Save favorite recommendations
 
-AI-generated explanations
+- AI-generated explanations
 
-Dark / Light mode
+- Dark / Light mode
 
-Recommendation history
+- Recommendation history
 
-Mobile app version
+- Mobile app version
 
+---
 
 ## 👩‍💻 Author
 
-Yanay Sánchez García
+- Yanay Sánchez García
 
-Full-Stack Developer
+- Full-Stack Developer
 
-Portfolio Project
+- Portfolio Project
 
-GitHub: https://github.com/Y8724
+- GitHub: https://github.com/Y8724
 
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+- This project is licensed under the MIT License.
 
+---
 
 ## ❤️ Acknowledgments
 
-TMDB API
+- TMDB API
 
-Google Books API
+- Google Books API
 
-Deezer API
+- Deezer API
 
-Open-source community
+- Open-source community
