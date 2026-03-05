@@ -133,7 +133,7 @@ form {
   font-size: 0.85rem;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  transition: border-color 0.15s ease, box0shadow 0.15s ease;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .app input::placeholder {
@@ -511,5 +511,50 @@ form {
   }
 }
 
+@media (max-width: 600px) {
 
+  form {
+    flex-direction: column;
+  }
+
+  .app button[type="submit"] {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .card {
+    min-width: 150px;
+    max-width: 150px;
+    height: 220px;
+  }
+
+}
+
+@media (hover: none) {
+
+  .movie-hover,
+  .media-hover {
+    display: none;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .page {
+    padding: 20px 12px 60px;
+  }
+
+  .app {
+    padding: 22px 18px;
+  }
+
+  .results h2 {
+    font-size: 1.3rem;
+  }
+
+}
 

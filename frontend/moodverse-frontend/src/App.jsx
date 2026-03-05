@@ -1,6 +1,3 @@
-console.log("ENV CHECK:", import.meta.env)
-console.log("API URL:", import.meta.env.VITE_API_URL);
-
 import { useState } from "react";
 import { useRef } from "react";
 import "./App.css";
