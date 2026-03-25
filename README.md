@@ -60,6 +60,15 @@ backend/
   
 ---
 
+## 📸 Screenshots
+
+### Moodverse (Relaxed)
+![Relaxed](screenshots/moodverse.png)
+
+### Moodverse (Focused)
+![Focused](screenshots/moodverse1.png)
+---
+
 ## ⚙️ Environment Setup
 
 # Clone the Repository
