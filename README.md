@@ -1,60 +1,63 @@
-✅ Moodverse – AI-Powered Mood-Based Recommendations 🎭🤖
-# 🌙 Moodverse AI
+# 🎧 Moodverse AI
 
-Moodverse is a full-stack web application that recommends movies, books, and music based on your mood.
+AI-powered web application that generates personalized movie, book, and music recommendations based on your mood.
 
-Built with React, Node.js, and external APIs.
+## 🚀 Live Demo
+https://moodverseai.netlify.app/
+
+## 🧠 Description
+Moodverse allows users to select or type a mood and instantly receive curated recommendations across multiple categories.
+
+The app integrates external APIs and uses a custom backend to process mood-based queries and return dynamic results.
 
 ---
 
 ## ✨ Features
-
 - 🎭 Mood-based recommendations
-- 🎬 Movies from TMDB
-- 📚 Books from Google Books
-- 🎵 Music from Deezer
-- ▶️ Music previews
-- 📱 Mobile-friendly UI
-- ⚡ Fast API backend
+- 🎬 Movies, 📚 Books, 🎵 Music in one place
+- ⚡ Real-time API data fetching
+- 🎧 Music preview playback
+- 🧠 AI-style recommendation logic
+- 💡 Clean and responsive UI
 
 ---
 
-## 🛠️ Tech Stack
-
-### Frontend
+## 🛠 Tech Stack
+Frontend:
 - React (Vite)
-- CSS3
-- React Icons
+- Tailwind CSS
+- JavaScript (ES6+)
 
-### Backend
-- Node.js
-- Express
-- Axios
-- Dotenv
+Backend:
+- Node.js / Express (or your backend setup)
+- External APIs (movies, books, music)
+
+## ⚙️ Environment Variables
+Create a `.env` file in the frontend:
+
+VITE_API_URL=your_backend_url
+
+---
+
+## 📦 Installation
+
+## bash
+git clone https://github.com/Y8724/moodverse.git
+cd moodverse/frontend/moodverse-frontend
+npm install
+npm run dev
 
 ---
 
 ## 📂 Project Structure
 
-moodverse/
-│
-├── backend/
-│   ├── controllers/
-│   ├── routes/
-│   ├── services/
-│   ├── config/
-│   ├── app.js
-│   ├── server.js
-│   └── .env.example
-│
-├── frontend/
-│   ├── src/
-│   ├── App.jsx
-│   └── .env.example
-│
-├── README.md
-└── .gitignore
-
+frontend/
+  moodverse-frontend/
+    src/
+    components/
+backend/
+  server/
+  
 ---
 
 ## ⚙️ Environment Setup
@@ -114,22 +117,6 @@ moodverse/
 
 ---
 
-## 🚀 Usage
-
-- Select a mood using the buttons
-
-- Or type your mood manually
-
-- Click Get Recommendations
-
-- Browse movies, books, and music
-
-- Play music previews
-
-- Open content in external platforms
-
----
-
 ## 🧠 What I Learned
 
 - Integrating multiple external APIs
@@ -146,31 +133,15 @@ moodverse/
 
 ---
 
-## 🔮 Future Improvements
-
-- User accounts & profiles
+🔮 Future Improvements
 
 - Save favorite recommendations
+- User authentication
+- Improved AI recommendation logic
+- Better loading and error states
 
-- AI-generated explanations
-
-- Dark / Light mode
-
-- Recommendation history
-
-- Mobile app version
-
----
-
-## 👩‍💻 Author
-
-- Yanay Sánchez García
-
-- Full-Stack Developer
-
-- Portfolio Project
-
-- GitHub: https://github.com/Y8724
+👨‍💻 Author
+Yanay Sánchez
 
 
 ## 📄 License
