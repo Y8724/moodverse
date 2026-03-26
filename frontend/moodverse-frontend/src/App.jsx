@@ -106,12 +106,12 @@ function App() {
           </h1>
 
           <p className="text-gray-600 mt-4 max-w-xl mx-auto text-lg">
-            Tell us how you feel — we’ll translate it into movies, books, and music.
+            Tell us how you feel, we’ll translate it into movies, books, and music.
           </p>
 
           {moodHistory.length > 0 && (
             <p className="text-sm text-gray-400 mt-3">
-              Welcome back — your vibes: {moodHistory.join(", ")}
+              Welcome back, your vibes: {moodHistory.join(", ")}
             </p>
           )}
         </header>
