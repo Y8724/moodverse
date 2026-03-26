@@ -1,5 +1,5 @@
 export async function getMusicByMood(tags) {
-    console.log("getMusicByMood CALLED with:", tags)
+    
     try {
         //pick best keyword from mood
         const query = Array.isArray(tags) && tags.length > 0 ? tags[0] : "chill";
@@ -16,7 +16,6 @@ export async function getMusicByMood(tags) {
 
         const data = await res.json();
 
-        console.log("Deezer result:", data);
 
         if (!data.data || data.data.length === 0) {
             return [];

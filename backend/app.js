@@ -1,8 +1,6 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-console.log("APP SEES TMDB:", process.env.TMDB_API_KEY);
-
 import express from "express";
 import cors from "cors";
 import recommendationsRoutes from "./routes/recommendations.routes.js";
